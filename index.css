@@ -1,0 +1,87 @@
+@font-face {
+    src: url("CursedTimer.ttf");
+    font-family: Timerfont;
+}
+
+body {
+    margin: 0;
+}
+
+h3{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-family: Timerfont;
+    text-align: center;
+    background-color: #080001;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    padding-top: 24px;
+    margin: 24px 0 26px 0;
+    border-radius: 4px;
+    border-width: 5px;
+    border-style:  outset;
+    border-color:gray;
+
+}
+
+.score-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.style-btn{
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    padding: 8px;
+    color: #9AABD8;
+    font-family: Timerfont;
+}
+
+.style-btn:hover{
+    background-color: transparent;
+    color: #F94F6D;
+    border: 2px solid #F94F6D;
+}
+
+#new-game{
+    display: flex;
+    background-color: #1B244A;
+    height: 120px;
+    width: 650px;
+    margin: auto;
+}
+
+#reset-btn{
+    background-color: transparent;
+    margin: auto;
+    height: 48px;
+    width: 160px;
+    border-radius: 9999px;
+    border: 2px solid white;
+    font-style: bold;
+    color: white;
+    font-size: 16px;
+}
+
+#reset-btn:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 350px;
+    width: 650px;
+    margin: auto;
+}
